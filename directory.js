@@ -5,8 +5,6 @@ var getImage = function(employee) {
     return employee.photo;
 }
 
-
-
 var successFCN = function(theEmployees) {
     console.log(theEmployees);
    var rows = d3.select("tbody") .selectAll("tr")
